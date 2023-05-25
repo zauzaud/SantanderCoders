@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabelas HTML</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
-      <h1>Tabelas no HTML</h1>
+      <h1>Tabelas no CSS</h1>
       <section id="students">
         <h2>Tabelas Alunos</h2>
 
-        <table border="1">
+        <table>
           <thead>
             <tr>
               <th>Nome</th>
@@ -41,34 +42,33 @@
         </table>
       </section>
 
-      <section id="finance">
-        <h2>Tabela de Controle Financeiro</h2>
+      <section id="tables">
+        <!-- Listas -->
 
-        <table border="1">
-          <thead>
-            <tr>
-              <th>Data</th>
-              <th>Tipo</th>
-              <th>Descrição</th>
-              <th>Valor</th>
-            </tr>
-          </thead>
+        <h2>Listas</h2>
 
-          <tbody>
-            <tr>
-              <td rowspan="2">15/06/2022</td>
-              <td>Despesa</td>
-              <td>Almoço</td>
-              <td>R$ 35,00</td>
-            </tr>
-            <tr>
-              <td>Receita</td>
-              <td>Salário</td>
-              <td>R$ 3700,00</td>
-            </tr>
-          </tbody>
-        </table>
+        <h3>Lista nao numerada</h3>
+
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ul>
+
+        <h3>Lista numerada</h3>
+
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ol>
       </section>
+
+      <div class="box">Texto teste</div>
+
+      <img
+        src="https://images.unsplash.com/photo-1684188474560-ba8f0bd284ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80"
+        alt=""
+        height="200px"
+      />
     </main>
   </body>
 </html>

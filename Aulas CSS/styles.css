@@ -1,7 +1,110 @@
+* {
+  margin: 0; /* Margem */
+  padding: 0; /* Preenchimento */
+}
+
+body {
+  font-family: "Times new roman";
+}
+
+table,
+td,
+th {
+  border: 1px solid black; /* Borda */
+  text-align: center; /* Alinhar ao centro as informacoes da tabela */
+}
+
+table tr:first-child {
+  background-color: blue;
+  color: white;
+}
+
+table tr:nth-child(2) {
+  background-color: red;
+  color: white;
+}
+
+table tr:nth-child(3) {
+  background-color: green;
+  color: white;
+}
+
 h1 {
-    color: red;
-    font-size: 90px;
-    text-align: center;
-    background-color: blue;
-    font-weight: 900;
+  color: #ff0000; /* Cor vermelha */
+  font-size: 90px; /* Tamanho da fonte */
+  text-align: center; /* Centralizar o texto */
+  font-weight: 900; /* Negrito */
+  font-style: oblique; /* Itálico */
+  text-decoration: underline; /* Sublinhado */
+  text-transform: capitalize; /* Capitalizar */
+  font-family: "Comic Neue", cursive; /* Fonte - lembrar de importar no html */
+}
+
+h2 {
+  color: blue; /* Cor azul */
+  text-align: center; /* Alinhar à direita */
+  font-size: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Comic Neue", cursive; /* Fonte - lembrar de importar no html */
+}
+
+.bg {
+  width: 100%; /* Full largura */
+  height: 800px; /* 800px altura */
+  background-color: grey; /* Cor de fundo cinza */
+  background-image: url(https://images.unsplash.com/photo-1684188474560-ba8f0bd284ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80); /* Imagem de fundo */
+  background-size: cover; /* Cobrir todo o tamanho do elemento pai */
+  background-repeat: no-repeat; /* Não repetir a imagem */
+  background-position: center; /* Centralizar a imagem */
+  background-attachment: fixed; /* Fixar a imagem */
+}
+
+p {
+  font-size: 30px; /* Tamanho da fonte */
+  text-align: justify; /* Justificar o texto */
+}
+
+.novo-em h2 {
+  font-size: 100px; /* Tamanho da fonte sobrescreveu o h2 la de cima */
+}
+
+a {
+  font-size: 40px;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: violet;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+ul {
+  padding-left: 30px;
+  list-style: square;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  background-color: red;
+  display: inline-block; /* Exibir em linha, se sobrar espaco a imagem fica do lado */
+  margin: 20px; /* Margem */
+  padding: 20px; /* Preenchimento da caixa, texto fica c recuo */
+  color: white;
+  border-radius: 20px; /* Arredondar as bordas */
+  font-size: 20px; /* Tamanho da fonte dentro da caixa*/
 }
