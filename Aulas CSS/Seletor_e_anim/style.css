@@ -1,0 +1,58 @@
+table,
+td,
+th {
+  border: 1px solid black; /* Borda */
+  text-align: center; /* Alinhar ao centro as informacoes da tabela */
+  /* alinhar a tabela no centro da tela */  
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+  
+  table tr:nth-child(2) {
+    background-color: red;
+    color: white;
+  }
+  
+  table tr:nth-child(3) {
+    background-color: green;
+    color: white;
+  }
+
+  h1,h3 { 
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  /* #students-table { 
+    display: none;
+  } */
+
+  [data-student] { 
+    background-color: rgb(247, 1, 206);
+    
+  }
+
+  @media screen and (min-width: 768px){
+
+
+    
+    
+  }
+
+  .bg {
+    width: 100%; /* Full largura */
+    height: 800px; /* 800px altura */
+    background-color: grey; /* Cor de fundo cinza */
+    background-image: url(https://images.unsplash.com/photo-1684188474560-ba8f0bd284ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80); /* Imagem de fundo */
+    background-size: cover; /* Cobrir todo o tamanho do elemento pai */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-position: center; /* Centralizar a imagem */
+    background-attachment: fixed; /* Fixar a imagem */
+  }
+
+  
