@@ -42,8 +42,8 @@ h1 {
 
 h2 {
   color: blue; /* Cor azul */
-  text-align: center; /* Alinhar à direita */
-  font-size: 50px;
+  text-align: left; /* Alinhar à esquerda */
+  font-size: 20px;
 }
 
 h1,
@@ -96,15 +96,53 @@ ul {
   list-style: square;
 }
 
+/* nav.menu {
+  position: fixed;
+  
+
+} */
+
+.contact-list {
+  position: relative;
+}
+
+.contact-list h2 {
+  top: 0px;
+  position: sticky;
+  background-color: lime;
+}
+
+.boxes {
+  display: flex;
+  position: relative;
+
+}
+
 .box {
   height: 200px;
   width: 200px;
   border: 5px solid black;
-  background-color: red;
+  background-color: rgb(2, 0, 117);
   display: inline-block; /* Exibir em linha, se sobrar espaco a imagem fica do lado */
   margin: 20px; /* Margem */
   padding: 20px; /* Preenchimento da caixa, texto fica c recuo */
   color: white;
   border-radius: 20px; /* Arredondar as bordas */
   font-size: 20px; /* Tamanho da fonte dentro da caixa*/
+  position: static; /* Posicao estatica */
+
 }
+
+.box:nth-child(1) {
+  float: none;
+
+}
+  
+/* .box:nth-child(2) {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  
+} */
+
+
