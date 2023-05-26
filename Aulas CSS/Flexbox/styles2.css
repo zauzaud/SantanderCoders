@@ -50,3 +50,32 @@ main {
     align-items: center; /* Centralizar verticalmente */
   
   }
+
+
+
+
+
+
+
+
+
+.box p, button{
+    font-size: 40px;
+
+}
+
+
+
+
+
+.boxes { 
+    height: calc(100vh);
+    position: relative;
+
+    display: grid;
+    justify-content: flex-start;
+    /* gap: 15px 40px; */
+
+    grid-template-columns: 1fr 1fr;
+}
+
