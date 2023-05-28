@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+aside h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  width: 429px;
+  height: 84px;
+  margin-top: 10px;
+}
+
+aside h1 span {
+  color: #ff5678;
+}
+
+aside img {
+  width: 409px;
+  height: 307px;
+  margin-right: 150px; /* Ajuste o valor conforme necessário */
+}
+
+main {
+  width: 600px;
+  height: 520px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+main .back-button {
+  position: absolute;
+  top: 25%; /* Adicione esta linha */
+  left: 150px;
+  display: flex;
+  align-items: center;
+  transform: translateY(-50%); /* Adicione esta linha */
+  text-decoration: none;
+}
+
+main .back-button i {
+  margin-right: 5px;
+}
+
+main h2 {
+  max-width: 500px;
+  font-size: 37px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 190px; /* Ajuste o valor conforme necessário */
+}
+
+main h2 span {
+  color: #ff5678;
+}
+
+main p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  width: 488px;
+  height: 21px;
+  margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+}
+
+main a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+main a:last-child {
+  margin-bottom: -100px;
+}
+
+.register-entity,
+.see-entity {
+  width: 430px;
+  height: 45px;
+  border-radius: 11px;
+  border: 2px solid rgba(192, 235, 244, 1);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.register-entity {
+  background: linear-gradient(0deg, #35e6e9, #35e6e9),
+    linear-gradient(0deg, #c0ebf4, #c0ebf4);
+}
+
+.see-entity {
+  background-color: rgba(255, 86, 120, 1);
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+main h2 > span {
+  margin-left: 10px;
+}
