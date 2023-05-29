@@ -20,7 +20,7 @@ console.log(array.slice(-1)); // [5]
 
 // Adiciona um ou mais elementos no final do array
 
-console.log(array.push(6)); // 6
+console.log(array.push(6, 7, 9)); // 6
 
 console.log(array); // [1, 2, 3, 4, 5, 6]
 

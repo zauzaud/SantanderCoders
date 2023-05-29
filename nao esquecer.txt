@@ -1,0 +1,5 @@
+cd .meu-projeto
+
+npm i 
+
+npm run dev

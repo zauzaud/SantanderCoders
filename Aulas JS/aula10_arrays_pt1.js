@@ -12,17 +12,22 @@ console.log(array2);
 
 // Acessando um elemento do array, ter em mente que o primeiro elemento é o 0
 
-console.log(array[0]); // 1
+console.log(array[0]);
+1;
 
-console.log(array[1]); // 2
+console.log(array[1]);
+2;
 
-console.log(array2[1]); // b
+console.log(array2[1]);
+b;
 
 // Obtendo o tamanho de um array
 
-console.log(array.length); // 5
+console.log(array.length);
+5;
 
-console.log(array2.length); // 5
+console.log(array2.length);
+5;
 
 // Percorrendo um array
 
@@ -31,12 +36,11 @@ for (let i = 0; i < array.length; i++) {
 }
 
 // Percorrendo um array com for of
+console.clear();
 
 for (let i of array) {
   console.log(i);
 }
-
-console.clear();
 
 // Percorrendo um array com for in
 
