@@ -57,3 +57,15 @@ const nome2 = "Gabriel";
 // let pode ser alterada
 
 let nome3 = "Gabriel";
+
+let x;
+
+console.log(x, typeof x);
+
+console.clear();
+
+var y = 10;
+
+console.log(y + z);
+
+let z = 15;
